@@ -1,0 +1,6 @@
+[submodule "Parcial/Dashboard/Frontend"]
+	path = Parcial/Dashboard/Frontend
+	url = git@github.com:VictorQuicano/music_dashboard-frontend-.git
+[submodule "Parcial/Dashboard/Backend"]
+	path = Parcial/Dashboard/Backend
+	url = git@github.com:VictorQuicano/music_dashboard-backend.git
