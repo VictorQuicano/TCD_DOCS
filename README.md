@@ -1,35 +1,67 @@
 # Proyecto de Ciencia de Datos – Victor Quicaño
 
+# 📁 Repositorio de Entregables – Víctor Quicaño
+
 Este repositorio contiene los entregables del curso de **Ciencia de Datos** dictado por la Magister **Ana María Cuadros Valdivia**. Los documentos desarrollan diferentes etapas del proceso de análisis de datos, desde la contextualización del problema hasta la construcción del pipeline de ciencia de datos.
 
 > [!NOTE]
 > Recordar que los archivos .pdf son extensos, github no puede cargar todo de golpe, por lo que en la parte inferior se muestra un botón con la leyenda "Show More"
 
-## Contenido del Repositorio
+## 📚 Índice de Contenidos
 
-Los siguientes documentos se encuentran incluidos:
+### 1. [`01_Pre_requisitos/`](./01_Pre_requisitos)
 
-- 📄 **Introducción_Victor_Quicaño.pdf**  
-  Presenta el contexto general del proyecto, incluyendo la motivación, el problema a abordar y los objetivos. Esta sección sigue el estilo de redacción empleado en artículos científicos para establecer una base sólida del análisis posterior.
+Documentación preliminar para establecer las bases conceptuales y técnicas del proyecto.
 
-- 📄 **Data_Wrangling_Victor_Quicaño.pdf**  
-  Detalla el proceso de **data wrangling** (limpieza y transformación de datos), incluyendo una descripción del dataset utilizado (metadata), así como los pasos seguidos para preparar los datos para el análisis. Se hace énfasis en la calidad y estructura del conjunto de datos.
+- 📄 **Introducción_Victor_Quicaño.pdf**
+  Presenta el contexto general del proyecto, incluyendo la motivación, el problema a abordar y los objetivos. Esta sección sigue un estilo de redacción académico.
 
-- 📄 **Pipeline_DIA_Victor_Quicaño.pdf**  
-  Diapositivas que describen el pipeline desarrollado.
+- 📄 **Data_Wrangling_Victor_Quicaño.pdf**
+  Detalla el proceso de limpieza y transformación de datos, incluyendo la descripción del dataset (metadata) y los pasos necesarios para preparar los datos para análisis.
 
-- 📄 **Pipeline_Victor_Quicaño.pdf**  
-  Documento complementario que profundiza en el diseño general del pipeline de ciencia de datos.
+- 📄 **Pipeline_DIA_Victor_Quicaño.pdf**
+  Diapositivas que ilustran el pipeline desarrollado para el procesamiento y análisis de datos.
 
-## Dataset y Contexto
+- 📄 **Pipeline_Victor_Quicaño.pdf**
+  Documento complementario que profundiza en el diseño del pipeline de ciencia de datos, abordando su arquitectura y componentes clave.
 
-El análisis se basa en un conjunto de datos previamente contextualizado en el documento de introducción. Se detalla:
+---
 
-- La procedencia del dataset.
-- Su relevancia frente al problema planteado.
-- La estructura y tipos de datos.
-- Consideraciones éticas o técnicas relacionadas con su uso.
+### 2. [`02_Parcial/`](./02_Parcial)
 
-------------
-Este proyecto fue realizado como parte del curso de Ciencia de Datos (2025-I). Todos los derechos reservados por el autor.*  
+Repositorio del **dashboard interactivo** diseñado para responder consultas complejas utilizando tres datasets voluminosos. Esta solución se divide en dos submódulos:
+
+#### 🧩 Estructura del Proyecto
+
+- 📁 `frontend/`
+  Submódulo que contiene el código del dashboard en **React** y **D3.js** para la visualización de datos.
+
+- 📁 `backend/`
+  Submódulo con el backend implementado en **FastAPI**, que expone una API para consultar datos gestionados con **Elasticsearch**.
+
+> ⚠️ _Dado el volumen de datos, la manipulación y visualización pueden requerir recursos considerables y tiempos de carga prolongados._
+
+---
+
+### 3. [`03_Trabajos_12_JUN/`](./03_Trabajos_12_JUN)
+
+Material entregado el **12 de junio**, enfocado en sistemas de recomendación contextualizados.
+
+- 📄 **CONTEXTO_QUICAÑO.pdf**
+  Diapositivas que presentan el contexto del problema y la importancia de incorporar el contexto en sistemas de recomendación.
+
+- 📄 **TRABAJOS-RELACIONADOS_QUICAÑO.pdf**
+  Exposición de dos artículos académicos recientes que abordan enfoques y desarrollos en recomendaciones contextualizadas.
+
+- 📄 **PLAN-TRABAJO_QUICAÑO.pdf**
+  Documento con el plan de trabajo para la siguiente etapa del proyecto, incluyendo:
+
+  - Introducción al problema.
+  - Revisión de literatura relevante.
+  - Propuesta de pipeline con modelo **Transformer** para recomendaciones contextuales.
+
+---
+
+Este proyecto fue realizado como parte del curso de Ciencia de Datos (2025-I). Todos los derechos reservados por el autor.\*
+
 > Autor: **Victor Quicaño**
