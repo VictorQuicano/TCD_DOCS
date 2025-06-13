@@ -4,6 +4,11 @@ Este repositorio contiene los documentos correspondientes a los entregables del 
 
 # Contenido de la carpeta
 
+### 0. `PRINCIPAL_DIAPOSITIVA`
+
+**Descripción:**
+Presenta todo lo referido al proyecto, problema, objetivo, contexto, trabajos relacionados y contexto del Data Set.
+
 ## REFERIDO AL PROBLEMA Y EL DATASET
 
 ### 1. `CONTEXTO_QUICAÑO.pdf`
